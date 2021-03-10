@@ -1,0 +1,177 @@
+.blog_page.single .blog-item .blog-info p {
+	margin-bottom: 30px;
+}
+.blog-item .blog-info blockquote {
+	position: relative;
+	margin-bottom: 52px;
+	padding-top: 20px;
+}
+.blog-item .blog-info blockquote:before {
+	content: '\f10d';
+	font-family: fontawesome;
+	position: absolute;
+	top: 41px;
+	left: 0;
+	color: #0800ad;
+	font-size: 16px;
+	background-color: #e5f3ff;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	z-index: 1;
+}
+.blog-item .blog-info blockquote:after {
+	content: '';
+	position: absolute;
+	top: 24px;
+	left: 16px;
+	width: 12px;
+	height: 101px;
+	background-image: url(../../images/shape3.png);
+	background-repeat: no-repeat;
+}
+.blog-item .blog-info blockquote p {
+	color: #222222;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+	padding-left: 75px;
+}
+
+.align_left {
+	float: left;
+	margin-right: 35px;
+}
+.align_left + p {
+	padding-top: 19px;
+}
+.shr-row {
+	margin-top: 30px;
+	padding-top: 25px;
+}
+.layout2 .shr-row {
+	margin-top: 30px;
+}
+.layout2 .banner_text > h2 {
+	font-size: 42px;
+	line-height: 60px;
+}
+.layout2 .banner_text > p  {
+	margin-bottom: 40px;
+}
+.shop-item.single .shop-img:before {display: none;}
+
+
+
+/* ======================== COMMENTS SECTION ======================= */
+
+.comments-section {
+	margin: 86px 0 0;
+}
+.comments-section > h3 {
+	color: #222222;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 46px;
+}
+.comments-list > li {
+	display: block;
+	margin-bottom: 20px;
+}
+.comments-list ul {
+	padding-left: 160px;
+}
+.comment {
+	display: table;
+	width: 100%;
+	margin-bottom: 57px;
+}
+.cmnt-img {
+	display: table-cell;
+	float: left;
+	width: 120px;
+}
+.cmnt-img > img {
+	width: 100%;
+}
+.cmnt-info {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+	padding-left: 36px;
+	position: relative;
+}
+.cmnt-info > h3 {
+	color: #222222;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.cmnt-info > h3 span {
+	display: inline-block;
+	color: #777777;
+	font-size: 16px;
+	padding-left: 15px;
+	font-weight: 400;
+}
+.cmnt-info > p {
+	font-weight: 500;
+	font-size: 16px;
+}
+.reply-btn {
+	display: inline-block;
+	color: #0800ad;
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font-weight: 700;
+}
+.reply-btn:hover {
+	color: #0800ad;
+}
+
+
+/* ======================== COMMENTS FORM SECTION ======================= */
+
+.comment-form {
+	padding-top: 28px;
+}
+.comment-form > h3 {
+	color: #222222;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.form-field {
+	width: 100%;
+	margin-bottom: 20px;
+	position: relative;
+}
+.form-field input,
+.form-field textarea {
+	width: 100%;
+	height: 60px;
+	color: #aaaaaa;
+	font-size: 14px;
+	border:1px solid #dddddd;
+}
+.form-field input {
+	height: 60px;
+	padding: 0 38px;
+}
+.form-field textarea {
+	height: 186px;
+	padding: 25px 38px;
+	resize: none;
+}
+.form-submit {
+	margin-top: 19px;
+}
+.form-submit .btn-style2 {
+	border:0;
+}
+
+
+.form-submit .btn-style2:focus{
+	outline: none;
+}

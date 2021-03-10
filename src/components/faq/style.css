@@ -1,0 +1,65 @@
+.faqs-text > h4 {
+	color: #2200bd;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.faqs-text > h3 {
+	color: #222222;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.faqs-text p {
+	margin-bottom: 40px;
+}
+
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    padding: 0;
+}
+.faqs_page .btn-link {
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    height: 100%;
+    color: #222222;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 25px 0 28px 58px;
+    position: relative;
+	cursor: pointer;
+	font-weight: 700;
+	position: relative;
+	
+}
+.faqs_page .btn-link:before {
+    content: '\f101';
+    font-family: fontawesome;
+    position: absolute;
+    top: 51%;
+    left: 30px;
+    color: #222222;
+    font-size: 18px;
+    transform: translateY(-50%);
+    margin-top: -2px;
+}
+.accordion>.card {
+	margin-bottom: 30px;
+	overflow: unset!important;
+	border:none;
+}
+.faqs_page .btn-link:hover{
+	text-decoration: none;
+	color: #0500b5;
+}
+
+.accordion>.card>.card-header{
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    -ms-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+    -o-box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	border:none;
+}

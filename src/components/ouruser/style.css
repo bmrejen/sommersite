@@ -1,0 +1,25 @@
+
+.ml-txt {
+	float: left;
+	width: 50%;
+}
+.ml-txt > h2 {
+	color: #222222;
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+.us-col > p {
+	margin-bottom: 42px;
+}
+.ml-txt > ul {
+	display: block;
+}
+.ml-txt > ul li {
+	display: block;
+	color: #777777;
+	margin-bottom: 5px;
+}
+
+.fl-icon-b img{
+	margin-bottom: 30px;
+}

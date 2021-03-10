@@ -1,0 +1,43 @@
+.banner_section {
+	background-image: url(../../images/resources/bg5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 403px 0 249px;
+}
+.banner_text {
+	max-width: 480px;
+	float: left;
+}
+.vectorr_shapee {
+	float: right;
+	width: 50%;
+}
+.vectorr_shapee > img {
+	width: 100%;
+}
+.banner_text > h4 {
+	color: #ffffff;
+	font-size: 24px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.banner_text > h2 {
+	color: #ffffff;
+	font-size: 48px;
+	line-height: 72px;
+	margin-bottom: 26px;
+}
+.banner_text > p {
+	color: #ffffff;
+	max-width: 420px;
+	margin-bottom: 61px;
+}
+.banner_text .btn-default {
+	color: #000c29;
+	background-color: #fff;
+	border-color: transparent;	
+}
+.banner_text .btn-default:hover {
+	background-color: #ff7e00;
+	color: #fff;
+}

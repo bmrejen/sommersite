@@ -1,0 +1,55 @@
+.banner_section.hp_4 {
+	background-image: url(../../images/resources/banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 350px 0 200px;
+}
+.banner_section.hp_4 .banner_text {
+	max-width: 600px;
+	float: left;
+}
+.banner_section.hp_4 .banner_text > p {
+	max-width: 600px;
+}
+.banner_section.hp_4 .banner_text > h2 {
+	color: #ffffff;
+	line-height: 64px;
+}
+.banner_section.hp_4 .banner_text > p {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+.vectorr_shapee {
+    float: right;
+    width: 40%;
+}
+.fdz-links {
+	display: block;
+}
+.fdz-links li {
+	display: inline-block;
+}
+.fdz-links li a {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 700;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 34px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+.fdz-links li:last-child a {
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+	color: #ffffff;
+	background-color: inherit;
+}

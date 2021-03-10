@@ -1,0 +1,78 @@
+.shop-item.single .shop-info > h3 {
+	color: #002222;
+	margin-bottom: 17px;
+}
+.shop-item.single .shop-info > .rating {
+	float: left;
+}
+.shop-item.single .shop-info .review_count {
+	float: left;
+	color: #777777;
+	font-size: 14px;
+	margin-left: 20px;
+	font-weight: 500;
+	margin-top: 2px;
+}
+.shop-item.single .shop-info > .price-num {
+	display: block;
+	width: 100%;
+	color: #ff8a00;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 34px;
+}
+.shop-item.single .shop-info p {
+	margin-bottom: 40px;
+}
+.handle-counter input {
+	width: 45px;
+	height: 50px;
+	background-color: #eeeeee;
+	border:0;
+	text-align: center;
+	font-weight: 500;
+	float: left;
+}
+.lft-cntrs {
+	float: left;
+	width: 35px;
+	height: 50px;
+	background-color: #eeeeee;
+	border-left: 1px solid #777777;
+}
+.lft-cntrs .btn {
+	padding: 0;
+	opacity: 1;
+	width: 100%;
+	background-color: inherit;
+	position: relative;
+	outline: none;
+	cursor: pointer;
+	color: #222;
+}
+.lft-cntrs .counter-minus.btn {
+	top: -5px;
+}
+.lft-cntrs .counter-plus.btn {
+	top: 5px;
+}
+.lft-cntrs .btn.focus, .lft-cntrs .btn:focus {
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+	outline: none;
+}
+.shop-item.single .shop-info .btn-style2 {
+	border:0;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 35px;
+	margin-left: 30px;
+}
+
+.shop-item.single .shop-info .btn-style2:focus{
+	outline: none;
+}

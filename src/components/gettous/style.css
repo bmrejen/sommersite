@@ -1,0 +1,33 @@
+.get-touch-sec {
+	background-image: url(../../images/bg4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 283px 0 130px;
+}
+.get-text > h2 {
+	font-weight: 700;
+	color: #222222;
+	font-size: 36px;
+	line-height: 60px;
+	margin-bottom: 37px;
+	padding: 0 110px;
+}
+.get-text > a {
+	display: inline-block;
+	color: #222222;
+	font-size: 18px;
+	background-color: #ffffff;
+	height: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	padding: 0 48px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+	box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.get-text > a:hover {
+	background-color: #0a15a9;
+	color: #fff;
+}

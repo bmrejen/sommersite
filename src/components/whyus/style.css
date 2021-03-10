@@ -1,0 +1,12 @@
+.why-us-sec {
+	padding: 120px 0;
+}
+.why-us-sec .vector-img > img {
+	max-width: inherit;
+	width: 100%;
+}
+
+.why-us-sec .grw-text .sec-title2 h2 {
+	padding-right: 70px;
+}
+

@@ -1,0 +1,31 @@
+.layout3 .banner_section {
+	background-image: url(../../images/resources/bg10.png);
+	padding: 310px 0 400px;
+	background-position: 100%;
+}
+.layout3 .banner_text {
+	max-width: 50%;
+	padding-top: 60px;
+}
+.layout3 .banner_text > h2 {
+	margin-bottom: 17px;
+	font-size: 54px;
+	line-height: 68px;
+}
+.layout3 .banner_text > p {
+	margin-bottom: 46px;
+	font-weight: 500;
+	max-width: 475px;
+	margin-top: 40px;
+}
+.layout3 .banner_text .btn-default {
+	padding: 0 29px;
+}
+.bg-vector {
+	float: right;
+	width: 50%;
+}
+.bg-vector > img {
+	width: 100%;
+}
+

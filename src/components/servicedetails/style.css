@@ -1,0 +1,120 @@
+.page-content {
+	padding: 120px 0;
+}
+.svs-list {
+	display: block;
+	margin-bottom: 60px;
+}
+.svs-list li {
+	margin-bottom: 18px;
+	display: block;
+}
+.svs-list li:last-child {
+	margin-bottom: 0;
+}
+.svs-list li a {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0;
+	border:1px solid #d7d7d7;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 30px;
+	position: relative;
+	display: block;
+}
+.svs-list li a:before {
+	content: '\f061';
+	position: absolute;
+	top: 0;
+	right: 30px;
+	color: #222222;
+	font-size: 14px;
+	font-family: fontawesome;
+}
+.svs-list li a:hover {
+	background-color: #0800ad;
+	color: #fff;
+}
+.svs-list li a:hover:before {
+	color: #fff;
+}
+
+
+.brouchers {
+	background-color: #f5f5f5;
+	padding: 30px 25px;
+	border:1px solid #dddddd;
+}
+.brouchers > h3 {
+	color: #0800ad;
+	font-size: 20px;
+	margin-bottom: 29px;
+}
+.broucher-row {
+	display: table;
+	width: 100%;
+}
+.brw-img {
+	display: table-cell;
+	float: left;
+}
+.brw-info {
+	display: table-cell;
+	vertical-align: top;
+	width: 100%;
+	padding-left: 25px;
+}
+.brw-info > p {
+	font-size: 14px;
+	line-height: 27px;
+	margin-bottom: 20px;
+	margin-top: -7px;
+}
+.brw-info > a {
+	display: inline-block;
+	color: #222222;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #8b8b8b;
+	display: inline-block;
+}
+.brw-info > a:hover {
+	color: #ff7e00;
+	border-color: #ff7e00;
+}
+
+
+.services_page .blog-item.single {
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+}
+.services_page .blog-item.single .blog-info {
+	padding: 40px 0 0 0;
+}
+.services_page .blog-item.single .blog-title {
+	font-size: 30px;
+	color: #0800ad;
+	margin-bottom: 25px;
+}
+.services_page .blog-item.single .blog-info > h4 {
+	color: #222222;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 35px 0 10px;
+}
+.services_page .blog-item.single .blog-info p {
+	margin-bottom: 20px;
+}
+
+
+.team-col {
+	margin-bottom: 78px;
+}
+.page-content-row .team-row {
+	margin-bottom: -78px;
+}

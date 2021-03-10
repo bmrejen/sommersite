@@ -1,0 +1,83 @@
+
+/* ========================== SERVICE SECTION HOMEPAGE 4 =========================== */
+
+.servicess_sec {
+	padding: 120px 0 120px;
+}
+.layout4 .sec-title2 {
+	max-width: 625px;
+	margin-top: -7px;
+}
+.layout4 .sec-title2 > h4 {
+	color: #2432be;
+}
+.services_list {
+	text-align: center;
+}
+.services_col {
+	padding: 50px 0;
+	border:1px solid #e1e1e1;
+	position: relative;
+}
+.services_col:hover {
+	margin-top: -20px;
+}
+.services_col > img {
+	margin-bottom: 29px;
+}
+.services_col > h3 {
+	color: #222222;
+	font-size: 20px;
+	margin-bottom: 27px;
+}
+.services_col > h3 a{
+	color: #222222;
+}
+.services_col > p {
+    font-size: 15px;
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+
+.lyt-sec .grw-text {
+	max-width: 580px;
+	padding-top: 0;
+}
+.lyt-sec .grw-text > ul li:before {
+	color: #2432be;
+}
+
+.lyt-sec {
+	padding-bottom: 115px;
+}
+
+.shp-img > img {
+	width: 100%;	
+}
+.shp-img.shdw img {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.10);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.10);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.10);
+	box-shadow: 0 0 10px rgba(0,0,0,0.10);
+	width: 100%;
+	max-width: 90%;
+}
+
+.our_users_sec {
+	padding: 5px 0 120px;
+}
+.our_users_row .sp-img img {
+	width: 100%;
+}
+.us-col {
+	max-width: 440px;
+	float: right;
+}
+.us-col > h3 {
+	color: #222222;
+	font-size: 36px;
+	line-height: 50px;
+	margin-bottom: 44px;
+	padding-right: 50px;
+}

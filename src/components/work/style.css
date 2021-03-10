@@ -1,0 +1,220 @@
+
+.how-works-sec {
+	padding-top: 120px;
+	padding-bottom: 76px;
+}
+.sec-title {
+	margin-bottom: 80px;
+	margin-top: -15px;
+}
+.sec-title > h2 {
+	color: #110802;
+	font-size: 36px;
+	position: relative;
+	padding-bottom: 35px;
+	line-height: 50px;
+}
+.how-works-sec .sec-title > h2 {
+	float: left;
+}
+.sec-title > h2:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 76px;
+	height: 6px;
+	background-color: #dae8ff;
+}
+.sec-title > h2:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 86px;
+	width: 20px;
+	height: 6px;
+	background-color: #6836ff;
+}
+
+
+.feature-col {
+	text-align: center;
+	padding: 70px 0 0;
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.06);
+	-ms-box-shadow: 0 0 30px rgba(0,0,0,0.06);
+	-o-box-shadow: 0 0 30px rgba(0,0,0,0.06);
+	box-shadow: 0 0 30px rgba(0,0,0,0.06);
+	position: relative;
+}
+.feature-col:hover {
+	margin-top: -20px;
+}
+.feature-col:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../images/bg-shape.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.feature-col:hover:before {
+	opacity: 1;
+	visibility: visible;
+}
+.feature-col:hover h3 a{
+	color: #fff;
+}
+.feature-col:hover p {
+	color: #fff;
+}
+.feature-col:hover .rm-btn {
+	background-color: #fff;
+	color: #6836ff;
+}
+.feature-col > img {
+	margin-bottom: 38px;
+}
+.feature-col > h3 a{
+	color: #110802;
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-bottom: 21px;
+	position: relative;
+	padding-bottom: 26px;
+	display: block;
+	transition:all .3s ;
+	-webkit-transition:all .3s ;
+	-moz-transition:all .3s ;
+	-ms-transition:all .3s ;
+	-o-transition:all .3s ;
+}
+.feature-col > h3 a:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 34px;
+	height: 4px;
+	background-color: #ffbdf2;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.layout2 .feature-col > h3 a{
+	padding-bottom: 0;
+}
+.feature-col > p {
+	padding: 0 25px;
+	margin-bottom: 32px;
+}
+.feature-col:hover {
+	top: 0;
+}
+
+.rm-btn {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	background-color: #0a15a9;
+	position: relative;
+	top: 30px;
+	-webkit-box-shadow: 10px 5px 10px rgba(0,0,0,0.10);
+	-moz-box-shadow: 10px 5px 10px rgba(0,0,0,0.10);
+	-ms-box-shadow: 10px 5px 10px rgba(0,0,0,0.10);
+	-o-box-shadow: 10px 5px 10px rgba(0,0,0,0.10);
+	box-shadow: 10px 5px 10px rgba(0,0,0,0.10);
+}
+.rm-btn:hover {
+	color: #fff;
+	background-color: #ff7e00;
+}
+
+.ftz-btn {
+	display: inline-block;
+	float: right;
+	color: #222222;
+	font-size: 16px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 32px;
+	background-color: #edf3fd;
+	position: relative;
+	top: 15px;
+	font-weight: 700;
+}
+.ftz-btn:hover {
+	background-color: #6836ff;
+	color: #fff;
+}
+.fl-icon-wrap{
+    margin-bottom: 40px;
+}
+
+.fl-icon-wrap{
+    position: relative;
+}
+.hover-img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.feature-col:hover .hover-img{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.how-works-sec.style2 {
+	background-image: url(../../images/bg5.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 120px 0 0 0;
+	position: relative;
+}
+.how-works-sec.style2 .features-row .row {
+	justify-content: center;
+}
+.how-works-sec.style2 .feature-col {
+	margin-bottom: 60px;
+}
+.how-works-sec.style2 .feature-col:before {
+	background-image: url(../../images/bg-shape2.png);
+}
+.how-works-sec.style2 .feature-col:hover {
+	padding-bottom: 90px;
+}
+.how-works-sec.style2 .sec-title > h2 {
+	float: none;
+}
+.how-works-sec.style2 .feature-col > h3:before {
+	display: none;
+}
+
+.feature-col:hover h3{
+	color: #fff;
+}

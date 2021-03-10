@@ -1,0 +1,25 @@
+
+.middle-header.style2 {
+	background-color: #fff;
+	position: absolute;
+	top: 47px;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	padding: 0;
+}
+.middle-header.style2 .header-content {
+	background-color: inherit;
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+	padding-left: 0;
+}
+
+@media(max-width:992px){
+	.middle-header.style2 {
+		top: 0;
+	}
+}

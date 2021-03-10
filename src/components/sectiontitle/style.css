@@ -1,0 +1,39 @@
+.sec-title {
+	margin-bottom: 80px;
+	margin-top: -15px;
+}
+.sec-title > h2 {
+	color: #110802;
+	font-size: 36px;
+	position: relative;
+	padding-bottom: 35px;
+	line-height: 50px;
+}
+.sec-title > h2:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 76px;
+	height: 6px;
+	background-color: #dae8ff;
+}
+.sec-title > h2:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 86px;
+	width: 20px;
+	height: 6px;
+	background-color: #6836ff;
+}
+
+.sec-title.center-style {
+    text-align: center;
+    max-width: 560px;
+	margin: auto;
+	padding-bottom: 35px;
+	line-height: 50px;
+	margin-bottom: 80px;
+    margin-top: -15px;
+}

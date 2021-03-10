@@ -1,0 +1,40 @@
+
+.reay-row {
+	background-color: rgba(255,255,255,0.20);
+	padding: 65px 100px;
+}
+.reay-text {
+	float: left;
+}
+.reay-text > h4 {
+	color: #b2b3ff;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+.reay-text > h3 {
+	color: #ffffff;
+	font-size: 30px;
+}
+.reay-row > .btn-style2 {
+	float: right;
+	background-color: #fff;
+	color: #0608ae;
+	font-size: 14px;
+	padding: 0 50px;
+	-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0 5px 20px rgba(0,0,0,0.39);
+	-ms-box-shadow: 0 5px 20px rgba(0,0,0,0.39);
+	-o-box-shadow: 0 5px 20px rgba(0,0,0,0.39);
+	box-shadow: 0 5px 20px rgba(0,0,0,0.39);
+	margin-top: 5px;
+}
+.reay-row > .btn-style2:hover {
+	background-color: #ff7e00;
+	color: #fff;
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+}

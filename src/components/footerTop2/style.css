@@ -1,0 +1,17 @@
+.layout3 footer {
+	background-image: url(../../images/footer-bg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 240px 0 0;
+}
+.layout3 .widget-logo > p,
+.layout3 .widget-title.widget-title,
+.layout3 .lnks-list li,
+.layout3 .lnks-list li a,
+.layout3 .widget-app > h3,
+.layout3 .widget-app .social-links li a {
+	color: #fff;
+}
+.layout3 .bottom-strip {
+	background-color: #000ec8;
+}

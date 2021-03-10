@@ -1,0 +1,72 @@
+
+.visual-sec {
+	padding: 120px 0;
+}
+.sec-title2.text-center {
+	margin: 0 auto;
+	margin-top: -6px;
+	margin-bottom: 60px;
+}
+.sec-title2.text-center > h4 {
+	margin-bottom: 10px;
+}
+.sec-title2 > p {
+	margin-top: 15px;
+}
+.scr-slide {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.19);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.19);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.19);
+	box-shadow: 0 0 10px rgba(0,0,0,0.19);
+	margin-bottom: 50px;
+}
+.scr-slide > img {
+	width: 100%;
+}
+
+
+.visual-sec .slick-prev,
+.visual-sec .slick-next {
+	top: auto;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 65px;
+	height: 40px;
+	border:1px solid #0207b3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-color: inherit;
+}
+.visual-sec .slick-prev:hover,
+.visual-sec .slick-next:hover {
+	background-color: #0a15a9;
+}
+.visual-sec .slick-prev:hover:before,
+.visual-sec .slick-next:hover:before {
+	color: #fff;
+}
+.visual-sec .slick-prev {
+	margin:0;
+	margin-left: -40px;
+}
+.visual-sec .slick-next {
+	margin-left: 40px;
+}
+.v-slide{
+	padding-bottom: 70px;
+}
+.visual-sec .slick-prev:before {
+	content: '\f177';
+}
+.visual-sec .slick-next:before {
+	content: '\f178';
+}

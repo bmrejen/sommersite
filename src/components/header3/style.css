@@ -1,0 +1,38 @@
+
+.layout3 header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	padding: 23px 0 0 0;
+}
+.layout3 .header-content {
+	-webkit-box-shadow: inherit;
+	-moz-box-shadow: inherit;
+	-ms-box-shadow: inherit;
+	-o-box-shadow: inherit;
+	box-shadow: inherit;
+	background-color: inherit;
+	padding: 0;
+}
+.layout3 nav ul li a {
+	color: #fff;
+}
+.layout3 nav ul li a:hover {
+	color: #ff7e00;
+}
+.layout3 .contact-info > h4 {
+	color: #ffffff;
+}
+.layout3 .contact-info > span {
+	color: #ffffff;
+}
+.layout3 nav ul ul li a {
+	color: #222222;
+}
+.layout3 nav ul ul li a:hover {
+	color: #ff7e00;
+}
+
+

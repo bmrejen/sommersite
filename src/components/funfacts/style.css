@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+
+.facts-sec {
+	background-image: url(../../images/resources/bg2.png);
+	background-repeat: no-repeat;
+	padding: 47px 0 0;
+}
+.facts-sec .sec-title {
+	margin-bottom: 150px;
+}
+.fact-col {
+	background-color: #fff;
+	padding: 30px 0 22px;
+	min-width: 300px;
+	text-align: center;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.06);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.06);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.06);
+	box-shadow: 0 0 10px rgba(0,0,0,0.06);
+	float: left;
+	position: relative;
+	margin-right: 30px;
+}
+.fact-col > h3 {
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 9px;
+} 
+.fact-col > h2 {
+	color: #6836ff;
+	font-size: 48px;
+	display: inline-block;
+}
+.fact-col > h2 span {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 400;
+}
+.fact-col > h2 small {
+	font-size: 24px;
+	font-weight: 400;
+}
+.fact-col:nth-child(2) {
+	top: -40px;
+}
+.fact-col:nth-child(3) {
+	top: -80px;
+}
+.fact-col > span {
+	display: inline-block;
+	color: #6836ff;
+	font-size: 48px;
+	font-weight: 700;
+	margin-left: 9px;
+}

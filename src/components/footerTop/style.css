@@ -1,0 +1,90 @@
+.top-footer {
+	padding: 112px 0 80px;
+	background-image: url(../../images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center 140%;
+}
+.widget-logo > p {
+	font-size: 14px;
+	margin-top: 30px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.widget-title {
+	color: #0a15a9;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	margin-top: -4px;
+}
+.widget-links ul {
+	display: block;
+}
+.lnks-list li {
+	display: block;
+	margin-bottom: 14px;
+	color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+}
+.lnks-list li:last-child {
+	margin-bottom: 0;
+}
+.lnks-list li a {
+	display: block;
+	color: #777777;
+	font-size: 14px;
+	font-weight: 500;
+}
+.lnks-list li a:hover {
+	color: #ff7e00;
+}
+
+.widget-contact .lnks-list li {
+	margin-bottom: 26px;
+}
+.widget-contact .lnks-list li:last-child {
+	margin-bottom: 0;
+}
+.layout3 .lnks-list li a:hover, 
+.layout3 .widget-app .social-links li a:hover {
+	color: #ff7e00;
+}
+.layout3 .top-footer {
+	background-color: inherit;
+}
+
+.download-btns {
+	display: block;
+	margin-bottom: 30px;
+	margin-top: -4px;
+}
+.download-btns li  {
+	display: inline-block;
+	margin-right: 16px;
+}
+.download-btns li:last-child {
+	margin-right: 0;
+}
+.download-btns li:last-child a img {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.09);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.09);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.09);
+	box-shadow: 0 0 10px rgba(0,0,0,0.09);
+}
+
+
+.widget-app > h3 {
+	color: #0a15a9;
+	font-size: 16px;
+}
+.widget-app .widget-title {
+	font-size: 17.6px;
+}
+.widget-app .social-links li a {
+	color: #0a15a9;
+}
+.widget-app .social-links {
+	margin-top: 19px;
+}

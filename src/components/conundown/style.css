@@ -1,0 +1,119 @@
+/* ========================= COMING SOON PAGE ======================== */
+
+
+.cm-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../images/cm-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cm-page-content {
+	text-align: center;
+	max-width: 1050px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.cm-logo {
+	margin-bottom: 40px;
+}
+.cm-page-content > h2 {
+	color: #ffffff;
+	font-size: 60px;
+	margin-bottom: 70px;
+}
+.react-countdown ul {
+	float: left;
+	width: 100%;
+}
+.react-countdown li {
+	float: left;
+	width: 23%;
+}
+.react-countdown .text{
+	display: inline-block;
+	color: #ffb200;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.react-countdown .digit{
+	color: #ffffff;
+	font-size: 100px;
+	margin-top: -15px;
+}
+
+.cm-page-content > p {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.cm-page-content form {
+	max-width: 970px;
+	margin: 0 auto;
+	position: relative;
+}
+.cm-page-content form input {
+	width: 100%;
+	height: 80px;
+	color: #222222;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0 50px;
+	border:0;
+}
+.cm-page-content form button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #ffb200;
+	color: #fff;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 65px;
+	border:0;
+	-webkit-border-radius: 0 50px 50px 0;
+	-moz-border-radius: 0 50px 50px 0;
+	-ms-border-radius: 0 50px 50px 0;
+	-o-border-radius: 0 50px 50px 0;
+	border-radius: 0 50px 50px 0;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.cm-page-content form button:focus{
+    outline: none;
+}
+.react-countdown li:after{
+    display: none;
+}
+.react-countdown {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media(max-width:590px){
+    .react-countdown li {
+        width: 19%;
+    }
+    .react-countdown .digit {
+        font-size: 40px;
+    }
+    .react-countdown .text {
+        font-size: 14px;
+    }
+}
